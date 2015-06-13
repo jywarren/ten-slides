@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export loaded ua-phantomjs reveal-viewport theme-font-montserrat theme-color-sand-blue">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Public Lab</title>
+		<meta name="description" content="Slides">
+
+		<link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css"/>
+		<link rel="stylesheet" href="bower_components/reveal.js/css/theme/simple.css" id="theme">
+		<link rel="stylesheet" href="style.css"/>
+
+		<script src="bower_components/reveal.js/js/reveal.js"></script>
+		<script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+
+	</head>
+	<body>
+		<div class="reveal">
+		<div class="slides">
+
+<section data-markdown>
+<script type="text/template">
+
+#Public Lab
+
+is a community and a non-profit,
+
+democratizing science to address
+
+environmental issues that affect people.
+
+</script>
+</section>
+
+<section data-markdown data-background-image="images/barnraising-handraising.JPG.not">
+<script type="text/template">
+
+##We work in an _open community_
+##that anyone can join
+
+This makes us stronger community organizers,
+technologists, scientists and activists.
+
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+
+##In Public Lab, 
+##we believe that 
+##_generating knowledge_
+##is a powerful thing
+
+We aim to open research from the
+
+exclusive hands of scientific experts.
+
+</script>
+</section>
+
+<section data-markdown>
+<script type="text/template">
+
+##Promoting a hands-on,
+##_do-it-yourself_ ethos,
+
+we support each other’s exploration, which
+
+leads to technical development, and real
+
+applications in our communities.
+
+</script>
+</section>
+
+		</div>
+		</div>
+
+		<script>
+		(function(){
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				//center: true,
+				//margin: 0.05,
+				//width: 1200,
+				//height:650,
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+				{ src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		})();
+		</script>
+
+	</body>
+</html>

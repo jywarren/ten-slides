@@ -1,2 +1,6 @@
-# ten-slides
+# Ten Slides
 Prototype "ten slides" for Public Lab
+
+CC-BY-SA 4.0
+
+https://creativecommons.org/licenses/by-sa/4.0/
