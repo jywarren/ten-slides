@@ -2,8 +2,8 @@
   "name": "template-maker",
   "version": "0.0.1",
   "dependencies": {
-    "fontawesome":           "~3.2.1",
-    "bootstrap-css":         "~2.3.2",
+    "fontawesome":      "~4.3.0",
+    "bootstrap":        "~3.2.0",
     "jquery":                "~1.11",
     "reveal.js":             "~3.1.0",
     "junction":              "theleagueof/junction"
